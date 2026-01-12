@@ -1,0 +1,10 @@
+/* config/splitkb_aurora_corne_right.overlay */
+#include "splitkb_aurora_corne.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};
+
+&right_encoder {
+    status = "okay";
+};
