@@ -1,4 +1,0 @@
-
-&right_encoder {
-    status = "okay";
-};
