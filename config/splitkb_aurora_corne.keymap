@@ -45,7 +45,7 @@
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp C_MUTE
                         >;
 
-                        sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP &inc_dec_kp SCRL_DOWN SCRL_UP>;
+                        sensor-bindings = <&inc_dec_kp SCRL_DOWN SCRL_UP &inc_dec_kp DOWN UP>;
                 };
 
                 raise_layer {
