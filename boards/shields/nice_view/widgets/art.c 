@@ -226,18 +226,19 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_ROCK-LEE
-#define LV_ATTRIBUTE_IMG_ROCK-LEE
+#ifndef LV_ATTRIBUTE_IMG_ROCKLEE
+#define LV_ATTRIBUTE_IMG_ROCKLEE
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ROCK-LEE uint8_t rock-lee_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
-        0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-        0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-  #else
-        0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-        0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-  #endif
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ROCKLEE uint8_t 
+    rocklee_map[] = {
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
+    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
+    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
+#else
+    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
+    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
+#endif
 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -309,12 +310,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ROCK-LEE 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t rock-lee = {
+const lv_img_dsc_t rocklee = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 105,
   .header.h = 68,
   .data_size = 960,
-  .data = rock-lee_map,
+  .data = rocklee_map,
 };
