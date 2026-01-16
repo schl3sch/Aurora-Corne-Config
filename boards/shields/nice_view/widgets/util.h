@@ -17,9 +17,9 @@
                        LV_DRAW_BUF_STRIDE_ALIGN)
 
 #define LVGL_BACKGROUND                                                                            \
-    IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_INVERTED) ? lv_color_black() : lv_color_white()
+    IS_ENABLED(CONFIG_NICE_VIEW_CUSTOM_WIDGET_INVERTED) ? lv_color_black() : lv_color_white()
 #define LVGL_FOREGROUND                                                                            \
-    IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_INVERTED) ? lv_color_white() : lv_color_black()
+    IS_ENABLED(CONFIG_NICE_VIEW_CUSTOM_WIDGET_INVERTED) ? lv_color_white() : lv_color_black()
 
 struct status_state {
     uint8_t battery;
