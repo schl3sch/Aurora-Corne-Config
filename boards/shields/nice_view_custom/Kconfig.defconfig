@@ -39,6 +39,10 @@ config NICE_VIEW_CUSTOM_WIDGET_STATUS
 config NICE_VIEW_CUSTOM_WIDGET_INVERTED
     bool "Invert custom status widget colors"
 
+config NICE_VIEW_CUSTOM_IMAGE_LEFT
+    bool "Show custom image on left (central) side"
+    default n
+
 if !ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL
 
 config NICE_VIEW_CUSTOM_WIDGET_STATUS
