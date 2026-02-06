@@ -30,7 +30,7 @@ static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 // Declare the image if the config is enabled
 #if IS_ENABLED(CONFIG_NICE_VIEW_CUSTOM_IMAGE_LEFT)
-LV_IMG_DECLARE(rocklee);
+LV_IMG_DECLARE(qr_tux);
 #endif
 
 struct output_status_state {
@@ -360,7 +360,7 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
 // If custom image is enabled, show Image instead of middle/bottom canvases
 #if IS_ENABLED(CONFIG_NICE_VIEW_CUSTOM_IMAGE_LEFT)
     lv_obj_t *art = lv_img_create(widget->obj);
-    lv_img_set_src(art, &rocklee);
+    lv_img_set_src(art, &qr_tux);
     lv_obj_align(art, LV_ALIGN_TOP_LEFT, 0, 0);
 #else
     lv_obj_t *middle = lv_canvas_create(widget->obj);

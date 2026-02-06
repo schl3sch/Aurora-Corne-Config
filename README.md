@@ -31,4 +31,4 @@ oled cover: https://splitkb.com/collections/cases-and-plates/products/aurora-cor
 
 34,99+34,94+5,80+25,94+25,94+43,90+22,90+3,75+6,49+5,45+24,06+8,45+22,95+8,95+3,94 ~ 279€ without shipping
 
-Custom image 105 * 68, rotate 90
+Custom image 140 * 68, rotate 90
