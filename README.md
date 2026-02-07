@@ -6,6 +6,9 @@
 ![Right Keyboard Side](./assets/documentation/rightside.jpg)
 ![Back Side](./assets/documentation/back.jpg)
 
+## Keymap
+![Keymap](./assets/documentation/keymap.png)
+
 ## Parts
 
 | Part | Price |
