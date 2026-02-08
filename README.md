@@ -7,7 +7,7 @@
 ![Back Side](./assets/documentation/back.jpg)
 
 ## Keymap
-![Keymap](./assets/documentation/keymap.png)
+![Keymap](./assets/documentation/my_keymap.png)
 
 ## Parts
 
